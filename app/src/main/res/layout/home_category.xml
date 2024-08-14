@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="597dp"
+        android:text="Choose Category"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="45dp" />
+    <ImageView
+        android:id="@+id/seeds"
+        android:layout_width="206dp"
+        android:layout_height="375dp"
+        android:src="@drawable/seeds" />
+
+    <ImageView
+        android:id="@+id/fertilizer"
+        android:layout_width="211dp"
+        android:layout_height="375dp"
+        android:layout_alignParentRight="true"
+
+        android:src="@drawable/fertilizer" />
+
+    <ImageView
+        android:id="@+id/organicmanure"
+        android:layout_width="206dp"
+        android:layout_height="393dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-95dp"
+        android:src="@drawable/organicmanure" />
+
+    <ImageView
+        android:id="@+id/tools"
+        android:layout_width="206dp"
+        android:layout_height="393dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="207dp"
+        android:layout_marginBottom="-67dp"
+        android:src="@drawable/tools" />
+
+
+
+
+</RelativeLayout>
